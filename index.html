@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/user3.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a>  </li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#pendidikan">Pendidikan</a></li>
+                <li><a href="#hobby">Hobby</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas ri-close-line" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas ri-menu-line" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+              <p>Perkenalkan</p>
+            <h1><span>Galih febriyanto</h1>
+        </div>
+    </div>
+    <!-- ----------profil---------- --> 
+    <div id="profil">
+        <div class="container">
+            <div class="row">
+                <div class="profil-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="profil-col-2">
+                    <h1 class="sub-title">Profil</h1>
+                    <p>Sejago apapun kamu,sehebat apapun kamu,seberani apapun kamu,teruslah
+                        perlihatkan kesopanan mu kepada orang lain,dunia ini tidak akan kehabisan
+                        orang hebat,tapi dunia ini membutuhkan orang sopan dan beradab!!</p>
+
+
+
+                    <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Alamat</p>
+                    <p class="tab-links"  onclick="opentab('exprience')">Tempat Tanggal Lahir   </p>
+                    <p class="tab-links"  onclick="opentab('education')">Cita Cita</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>JALAN</span><br>Tipar Swadaya</li>
+                        <li><span>RT/RW</span><br>04/07</li>
+                        <li><span>KODE POS</span><br>16452</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="exprience">
+                    <ul>
+                        <li><span>TANGGAL LAHIR</span><br>5 Februari 2007</li>
+                        <li><span>TEMPAT LAHIR</span><br>Jakarta</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>BUSINESS HEWAN</span><br>Sapi Dan Kambing</li>
+                        <li><span>PENGUSAHA MUDA</span><br>Bos Sawit</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------pendidikan----------- -->
+    <div id="pendidikan">
+        <div class="container">
+            <h1 class="sub-title">Pendidikan</h1>
+            <div class="pendidikan-list">
+                <div>
+                <i class="ri-school-line"></i>
+
+                <h2>SDN MEKARSARI 3</h2>
+                    <a href="#"learn more></a>
+               </div>  
+               <div>
+                <i class="ri-school-line"></i>
+                <h2>SMPN 15 DEPOk</h2>
+                    <a href="#"learn more></a>
+               </div>
+               <div>
+                <i class="ri-school-line"></i>
+                <h2>SMKIT RAFLESIA</h2>
+                    <a href="#"learn more></a>
+               </div> 
+            </div>
+        </div>
+    </div>
+    <!-- ---------hobby----------- -->
+    <div id="hobby">
+        <div class="container">
+            <h1 class="sub-title">Hobby</h1>
+            <div class="hobby-list">
+                <div class="hobby">
+                    <img src="images/user4.png">
+                    <div class="layer">
+                        <h3>Sepak Bola</h3>
+                        <p>Bagi yang memiliki hobi sepak bola bisa
+                            meningkatkan kebugaran tubuh,menjaga kesehatan jantung,
+                            membangun kekuatan otot dan meningkatkan kesehatan mental.</p>
+                        <a href="#"><i class="ri-link"></i></a>
+                    </div>
+                </div>
+                <div class="hobby">
+                    <img src="images/user3 (2).png">
+                    <div class="layer">
+                        <h3>Bulu Tangkis</h3>
+                        <p>Bulu tangkis juga dapat menurunkan berat badan,
+                            memperkuat otot sendi dan memperkuat tulang.</p>
+                        <a href="#"><i class="ri-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ---------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="ri-mail-line"></i>galihfebriyanto596@gmail.com</p>
+                    <p><i class="ri-phone-line"></i>08999090703</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/febrynnto?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><i class="ri-instagram-line"></i></a>
+                        <a href="https://api.whatsapp.com/send/?phone=628999090703&text&type=phone_number&app_absent=0"><i class="ri-whatsapp-line"></i></a>
+                        <a href="https://www.tiktok.com/@fbrynto.05?_r=1&_d=eahjlkd6bkmj3g&sec_uid=MS4wLjABAAAAzWB5g1MOEQsleRlAsEwbdTYvziHBU_CHt7q9bVC5DB6l2A7EVSV61J3OD8xBOU3A&share_author_id=6983333258738402306&sharer_language=id&source=h5_t&u_code=djf4di3eb821lg&timestamp=1698735065&user_id=6983333258738402306&sec_user_id=MS4wLjABAAAAzWB5g1MOEQsleRlAsEwbdTYvziHBU_CHt7q9bVC5DB6l2A7EVSV61J3OD8xBOU3A&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7292683256360797953&share_link_id=6044f5b6-0806-469d-9913-5a5c345a0844&share_app_id=1180&ugbiz_name=Account&ug_btm=b8727%2Cb4907"><i class="ri-tiktok-fill"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <from>
+                        <input type="text" name="Name" placeholder="masukan nama" required>
+                        <input type="text" name="email" placeholder="masukan email" required>
+                        <textarea name="Message" rows="6" placeholder="masukan Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </from>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Project Portofolio © Made with Galih febriyanto</p>
+        </div>
+    </div>
+
+
+
+    <script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+    for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+    
+       
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+       
+    </script>
+
+</body>
+</html>
